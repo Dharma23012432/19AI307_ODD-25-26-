@@ -1,5 +1,6 @@
 Ex.No:1(B) CONDITIONAL STATEMENT
 QUESTION:
+
 In a haunted house, lights turn on or off based on the hour of entry:
 
 If the hour is even and between 2 and 6 (inclusive), lights flicker.
@@ -9,42 +10,45 @@ If the hour is odd and between 7 and 11, lights stay off.
 If the hour is 12, lights turn red.
 
 Otherwise, the house is dark.
-
 AIM:
+
 To write a Java program that uses conditional statements to determine the state of lights in a haunted house based on the hour of entry.
-
 ALGORITHM :
-Start the program.
 
-Import the necessary package java.util.*.
+    Start the program.
 
-Create a Scanner object to read the hour input from the user.
+    Import the necessary package java.util.*.
 
-Read the hour as an integer.
+    Create a Scanner object to read the hour input from the user.
 
-Check if the hour is even and between 2 and 6 (inclusive):
+    Read the hour as an integer.
 
-Display “Lights flicker”.
+    Check if the hour is even and between 2 and 6 (inclusive):
 
-Else if the hour is odd and between 7 and 11:
+    Display “Lights flicker”.
 
-Display “Lights stay off”.
+    Else if the hour is odd and between 7 and 11:
 
-Else if the hour is 12:
+    Display “Lights stay off”.
 
-Display “Lights turn red”.
+    Else if the hour is 12:
 
-Display “The house is dark”.
+    Display “Lights turn red”.
 
-End the program.
+    Display “The house is dark”.
+
+    End the program.
 
 PROGRAM:
+
 /*
 Program to implement a conditional statement using Java
 Developed by: DHARMALINGAM S
 RegisterNumber: 212223040037
 */
+
 Sourcecode.java:
+
 import java.util.*;
 public class Demo
 {
@@ -63,7 +67,9 @@ public class Demo
         }
     }
 }
+
 OUTPUT:
 Screenshot 2025-11-14 101547
 RESULT:
+
 Thus, the Java program to implement conditional statements for the haunted house lighting system was successfully executed.

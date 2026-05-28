@@ -1,6 +1,6 @@
-Ex.No:1(B) CONDITIONAL STATEMENT
-QUESTION:
+# Ex.No:1(B) CONDITIONAL STATEMENT
 
+## QUESTION:
 In a haunted house, lights turn on or off based on the hour of entry:
 
 If the hour is even and between 2 and 6 (inclusive), lights flicker.
@@ -10,45 +10,47 @@ If the hour is odd and between 7 and 11, lights stay off.
 If the hour is 12, lights turn red.
 
 Otherwise, the house is dark.
-AIM:
 
+
+## AIM:
 To write a Java program that uses conditional statements to determine the state of lights in a haunted house based on the hour of entry.
-ALGORITHM :
 
-    Start the program.
+## ALGORITHM :
+1. Start the program.
 
-    Import the necessary package java.util.*.
+2. Import the necessary package java.util.*.
 
-    Create a Scanner object to read the hour input from the user.
+3. Create a Scanner object to read the hour input from the user.
 
-    Read the hour as an integer.
+4. Read the hour as an integer.
 
-    Check if the hour is even and between 2 and 6 (inclusive):
+5. Check if the hour is even and between 2 and 6 (inclusive):
 
-    Display “Lights flicker”.
+6. Display “Lights flicker”.
 
-    Else if the hour is odd and between 7 and 11:
+7. Else if the hour is odd and between 7 and 11:
 
-    Display “Lights stay off”.
+8. Display “Lights stay off”.
 
-    Else if the hour is 12:
+9. Else if the hour is 12:
 
-    Display “Lights turn red”.
+10. Display “Lights turn red”.
+ 
+11. Display “The house is dark”.
 
-    Display “The house is dark”.
+12. End the program.
 
-    End the program.
-
-PROGRAM:
-
+## PROGRAM:
+ ```
 /*
 Program to implement a conditional statement using Java
 Developed by: DHARMALINGAM S
 RegisterNumber: 212223040037
 */
+```
 
-Sourcecode.java:
-
+## Sourcecode.java:
+```
 import java.util.*;
 public class Demo
 {
@@ -67,9 +69,18 @@ public class Demo
         }
     }
 }
+```
 
-OUTPUT:
-Screenshot 2025-11-14 101547
-RESULT:
+## OUTPUT:
+<img width="486" height="294" alt="Screenshot 2025-11-14 101547" src="https://github.com/user-attachments/assets/a64529b4-061c-436d-8ea4-55157b6e41b9" />
 
+
+
+
+
+## RESULT:
 Thus, the Java program to implement conditional statements for the haunted house lighting system was successfully executed.
+
+
+
+
